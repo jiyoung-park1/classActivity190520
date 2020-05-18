@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Introduction of JavaScript Data Structure
 
   1) Stack - call stack is the most imporatant stack in JavaScript. it is an array with two built-in methods which are .push() and .pop(). stacks follow the "Last In, First Out" protocol (LIFO). in addition, we can reverse the order of the stack: the bottom becomes the top and the top becomes the bottom. and we can change in place of .push() and .pop() to .unshift() and .shift() respectively. however, push and pop methods are more useful than unshift and shift method. 
@@ -116,3 +117,6 @@
  c) Which data structure stores you can use recursion to access data -
  d) Real world example -
  e) Pseudocode and diagram -
+=======
+# classActivity190520
+>>>>>>> 9c07796ebc5cdb73729a00e536c1618ebb918ca3
