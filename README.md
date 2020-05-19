@@ -109,6 +109,8 @@
        this.next = null
    }
 
+  diagram
+   ![alt text](https://www.pythoncentral.io/wp-content/uploads/2017/08/wordpress-hints-linked-list-google.png"linked list diagram")
 3. Explain in details JavaScript Recursion
 
  a) What is a Recursion - 
