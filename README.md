@@ -111,6 +111,7 @@
 
   diagram
    ![alt text](https://www.pythoncentral.io/wp-content/uploads/2017/08/wordpress-hints-linked-list-google.png)
+
 3. Explain in details JavaScript Recursion
 
  a) What is a Recursion - 
@@ -120,9 +121,9 @@
    recursion can reduce time complexity. 
    it adds clarity and reduces the time needed to write and debug code
 
-    Disadvantages -
-    recursion uses more memory
-    it can be slower than other iteration syntaxes
+  Disadvantages -
+ recursion uses more memory
+ it can be slower than other iteration syntaxes
 
  c) Which data structure stores you can use recursion to access data -
     stack can use recursino to access data properly because of it LIFO protocol it remembers its 'caller' so knows whom to return when the function has to return. recursion makes use of system stack for storing the return addresses of the function calls.
@@ -152,7 +153,6 @@
    }
 
    Diagram
-
    ![alt text](https://javascript.info/article/recursion/recursion-pow.svg)
 =======
 # classActivity190520
