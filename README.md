@@ -110,7 +110,7 @@
    }
 
   diagram
-   ![alt text](https://www.pythoncentral.io/wp-content/uploads/2017/08/wordpress-hints-linked-list-google.png"linked list diagram")
+   ![alt text](https://www.pythoncentral.io/wp-content/uploads/2017/08/wordpress-hints-linked-list-google.png)
 3. Explain in details JavaScript Recursion
 
  a) What is a Recursion - 
@@ -153,7 +153,7 @@
 
    Diagram
 
-   ![alt text](https://javascript.info/article/recursion/recursion-pow.svg"recursion diagram")
+   ![alt text](https://javascript.info/article/recursion/recursion-pow.svg)
 =======
 # classActivity190520
 >>>>>>> 9c07796ebc5cdb73729a00e536c1618ebb918ca3
