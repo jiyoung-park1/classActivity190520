@@ -128,7 +128,7 @@
  d) Real world example -
    fibonacci-recursive function
    
-   (if (< n 2)
+   (if (n < 2)
       n
      (+ (fibonacci-recursive (- n 2)) (fibonacci-recursive (- n 1)))))
 
@@ -150,6 +150,8 @@
    }
 
    Diagram
+
+   ![alt text](https://javascript.info/article/recursion/recursion-pow.svg"recursion diagram")
 =======
 # classActivity190520
 >>>>>>> 9c07796ebc5cdb73729a00e536c1618ebb918ca3
