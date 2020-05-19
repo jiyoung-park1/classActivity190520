@@ -88,26 +88,31 @@
 2. Explain in details Linked list
 
  a) What is a linked list -
-   a linked list is a sequence data structure, which connects elements. unlike an array, a node in a linked list is not necessarily positioned close to the previous element or the next element. nodes are connected by pointers. 
+   
+    a linked list is a sequence data structure, which connects elements. unlike an array, a node in a linked list is not necessarily positioned close to the previous element or the next element. nodes are connected by pointers. 
 
- b) Advantages - 
-   can be increse/decrease the number of nodes(dynamic allocation)
-   can use muptiple data types as elements
-   basically its advanced than arrays
+ b) pros and cons
+      
+      Advantages - 
+      can be increse/decrease the number of nodes(dynamic allocation)
+      can use muptiple data types as elements
+      basically its advanced than arrays
  
     Disadvantages - 
-   consumes more memory than arrays
-   need ro clear memory once we done with it
-   handling pointers is a bit tricky compared to arrays
+     consumes more memory than arrays
+     need ro clear memory once we done with it
+     handling pointers is a bit tricky compared to arrays
 
  c) Real world exmaple -
-   web-browsers, where it creates a linked list of web-pages visited, so that when you check history or press back button, the previous node's data is fetched. 
+   
+    web-browsers, where it creates a linked list of web-pages visited, so that when you check history or press back button, the previous node's data is fetched. 
 
  d) Pseudocode and diagram - 
-   constructor(data){
+  
+    constructor(data){
        this.data = data
        this.next = null
-   }
+    }
 
   diagram
    ![alt text](https://www.pythoncentral.io/wp-content/uploads/2017/08/wordpress-hints-linked-list-google.png)
@@ -115,31 +120,36 @@
 3. Explain in details JavaScript Recursion
 
  a) What is a Recursion - 
-   recursion is when a function calls itself. if no one stops it, then it will recurse forever. recursive function can make iteration without loop or for/while. 
+   
+    recursion is when a function calls itself. if no one stops it, then it will recurse forever. recursive function can make iteration without loop or for/while. 
 
- b) Advantages -
-   recursion can reduce time complexity. 
-   it adds clarity and reduces the time needed to write and debug code
+ b) pros and cons
 
-  Disadvantages -
- recursion uses more memory
- it can be slower than other iteration syntaxes
+    Advantages -  
+    recursion can reduce time complexity. 
+    it adds clarity and reduces the time needed to write and debug code
+
+    Disadvantages -
+    recursion uses more memory
+    it can be slower than other iteration syntaxes
 
  c) Which data structure stores you can use recursion to access data -
-    stack can use recursino to access data properly because of it LIFO protocol it remembers its 'caller' so knows whom to return when the function has to return. recursion makes use of system stack for storing the return addresses of the function calls.
+    
+     stack can use recursino to access data properly because of it LIFO protocol it remembers its 'caller' so knows whom to return when the function has to return. recursion makes use of system stack for storing the return addresses of the function calls.
 
  d) Real world example -
-   fibonacci-recursive function
    
-   (if (n < 2)
+    fibonacci-recursive function
+   
+    (if (n < 2)
       n
      (+ (fibonacci-recursive (- n 2)) (fibonacci-recursive (- n 1)))))
 
  e) Pseudocode and diagram -
    
-   Pseudocode
+    Pseudocode
 
-   function find_max(list){
+    function find_max(list){
        possible_max_1 = first value in list
        possible_max_2 = find_max(rest of the list)
 
@@ -152,7 +162,7 @@
     end
    }
 
-   Diagram
+    Diagram
    ![alt text](https://javascript.info/article/recursion/recursion-pow.svg)
 =======
 # classActivity190520
