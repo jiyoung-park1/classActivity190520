@@ -111,12 +111,45 @@
 
 3. Explain in details JavaScript Recursion
 
- a) What is a Recursion -
+ a) What is a Recursion - 
+   recursion is when a function calls itself. if no one stops it, then it will recurse forever. recursive function can make iteration without loop or for/while. 
+
  b) Advantages -
+   recursion can reduce time complexity. 
+   it adds clarity and reduces the time needed to write and debug code
+
     Disadvantages -
+    recursion uses more memory
+    it can be slower than other iteration syntaxes
+
  c) Which data structure stores you can use recursion to access data -
+    stack can use recursino to access data properly because of it LIFO protocol it remembers its 'caller' so knows whom to return when the function has to return. recursion makes use of system stack for storing the return addresses of the function calls.
+
  d) Real world example -
+   fibonacci-recursive function
+   
+   (if (< n 2)
+      n
+     (+ (fibonacci-recursive (- n 2)) (fibonacci-recursive (- n 1)))))
+
  e) Pseudocode and diagram -
+   
+   Pseudocode
+
+   function find_max(list){
+       possible_max_1 = first value in list
+       possible_max_2 = find_max(rest of the list)
+
+       if (possible_max_1 < possible_max_2)
+         answer is possible_max_1
+       else 
+         answer is possivle_max_2
+       end
+
+    end
+   }
+
+   Diagram
 =======
 # classActivity190520
 >>>>>>> 9c07796ebc5cdb73729a00e536c1618ebb918ca3
